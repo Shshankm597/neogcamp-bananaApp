@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana App</title>
+
+    <!-- temporary styling for required components -->
+    <style>
+        textarea {
+            width: 70%;
+            height: 20vh;
+            display: block;
+            margin: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        #outputDiv {
+            border: 1px solid black;
+            width: 70%;
+            height: 20vh;
+            margin: 1rem;
+            border-radius: 0.5rem;
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>This app will be based on Vanilla JS</h1>
-    <p>Hi this is going to be a vanilla js app with server requests and fun API.</p>
+    <h1>Banana App</h1>
+
+    <!-- input area -->
+    <textarea id="txt-input" placeholder="Type your English word/sentence here and we will convert it into Banana"></textarea>
+
+    <!-- processing button -->
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger; font-weight: bold;">Output will come here 👇</div>
+    <!-- output area -->
+    <div id="outputDiv"></div>
+
+    <script src="app.js"></script>
 </body>
 </html>
