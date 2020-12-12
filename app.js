@@ -3,6 +3,8 @@ var txtInput = document.querySelector("#txt-input");
 var output = document.querySelector("#outputDiv");
 
 // translation API
+// var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
 var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 
