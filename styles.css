@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+:root {
+    --minionColor: #f5e050;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0px;
+    text-align: center;
+}
+
+textarea {
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 3rem;
+    font-size: medium;
+    font-family: inherit;
+    font-weight: 10;
+}
+
+#outputDiv {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: medium;
+    font-family: inherit;
+    text-align: start;
+}
+
+.navigation {
+    background-color: var(--minionColor);
+    padding: 1rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem; 
+}
+
+.navigation .nav-brand {
+    font-family: 'Monoton', cursive;
+    font-weight: initial;
+    font-size: xx-large;
+}
+
+.navigation .nav-img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+
+}
+
+#btn-translate {
+    background-color: var(--minionColor);
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+}
+
+#output-heading {
+    font-weight: bold;
+    font-size: large;
+}
+.img {
+    max-width: 80px;
+    display: block;
+    margin: auto;
+    float: right;
+}
+
+.footer {
+    background-color: #f5e050;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.footer .footer-text {
+    text-align: center;
+}
