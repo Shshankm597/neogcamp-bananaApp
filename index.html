@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana App</title>
 
-    <!-- temporary styling for required components -->
-    <style>
-        textarea {
-            width: 70%;
-            height: 20vh;
-            display: block;
-            margin: 1rem;
-            border-radius: 0.5rem;
-        }
+    <link rel="stylesheet" href="/styles.css">
 
-        #outputDiv {
-            border: 1px solid black;
-            width: 70%;
-            height: 20vh;
-            margin: 1rem;
-            border-radius: 0.5rem;
-            color: black;
-        }
-
-    </style>
 </head>
+
 <body>
-    <h1>Banana App</h1>
+    <nav class="navigation">
+        <img class="nav-img" src="/images/nav-img.png" />
+        <div class="nav-brand">Banana App</div>
+    </nav>
 
     <!-- input area -->
-    <textarea id="txt-input" placeholder="Type your English word/sentence here and we will convert it into Banana"></textarea>
+    <textarea id="txt-input"
+        placeholder="Type your English word/sentence here and we will convert it into Banana"></textarea>
 
     <!-- processing button -->
-    <button id="btn-translate">Translate</button>
+    <button id="btn-translate">Translate to Banana</button>
 
-    <div style="font-size: larger; font-weight: bold;">Output will come here 👇</div>
+    <div id="output-heading">Output will come here 👇</div>
     <!-- output area -->
     <div id="outputDiv"></div>
 
-    <script src="app.js"></script>
+    <!-- bottom image  -->
+    <img class="img" src="/images/png.png" />
+
+    <footer class="footer">
+        <div class="footer-header">About the App</div>
+        <div class="footer-text">
+            <small>made with love by <a href="https://devshashank.netlify.app/" >Shashank</a> </small>
+            <p>Are you a fan of minions? Did you know that the gibberish they say is an actual
+                language. The
+                language spoken
+                by Minions include words from French, English, Spanish, Hindi, and Korean.<br><br>
+                Use the translator to convert your text from English to Minion speak or Banana language.
+            </p>
+        </div>
+    </footer>
+
+    <!-- importing JS file -->
+    <script src="/app.js"></script>
 </body>
+
 </html>
